@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Country List</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        table { width: 400px; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>Welcome Message Placeholder</h1>
+    
+    <h2>Countries by Population (Largest to Smallest):</h2> 
+
+	<hr style="margin: 20px 0;">
+        <p style="font-size: small; color: #888;">
+            Back to main page
+            <a href="/">Index</a>)
+        </p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Name</th>                
+				<th>Continent</th>
+				<th>Region</th>
+                <th>Population</th>
+                <th>Capital</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="country : ${countries}">
+                <td th:text="${country.code}">USA</td>
+                <td th:text="${country.name}">United States</td>
+                <td th:text="${country.continent}">United States</td>
+                <td th:text="${country.region}">United States</td>
+                <td th:text="${country.population}">330000000</td>
+                <td th:text="${country.capital}">United States</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
