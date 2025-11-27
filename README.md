@@ -1,6 +1,6 @@
 # world-reports
 
-- [Use Cases](use_cases.md)
+- [Use Cases](use_cases/use_cases.md)
 
 # Evidence of Requirements Being Met
 

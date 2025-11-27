@@ -6,7 +6,7 @@ This document contains the system's main use cases derived from the user stories
 
 ## Use Case Diagram
 
-![Screenshot](use_cases/use_case_diagram.png)
+![Screenshot](use_case_diagram.png)
 
 ---
 
