@@ -1,5 +1,7 @@
 # world-reports
 
+- [Use Cases](use_cases/use_cases.md)
+
 # Evidence of Requirements Being Met
 
 | ID | Name of the Requirement | Met | Screenshot |
