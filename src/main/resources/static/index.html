@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring Boot Hello App</title>
+    <!-- Basic styling for better appearance -->
+    <style>
+        body { font-family: Arial, sans-serif; display: flex; flex-direction: column; align-items: center; padding-top: 50px; }
+        .container { background-color: #f4f4f9; padding: 30px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 100%; max-width: 400px; text-align: center; }
+        h1 { color: #333; margin-bottom: 20px; }
+        label { display: block; margin-bottom: 10px; font-weight: bold; color: #555; }
+        input[type="text"] { width: 90%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px; }
+        button { background-color: #007bff; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; transition: background-color 0.3s; }
+        button:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the World Reports</h1>
+        
+        <hr style="margin: 20px 0;">
+        <p style="font-size: small; color: #888;">
+            (Check Country Name List: 
+            <a href="/countryList">Country Name List</a>)
+        </p>
+        <hr style="margin: 20px 0;">
+        <p style="font-size: small; color: #888;">
+            (Check Country Name List By Population: 
+            <a href="/countryListByPopulationDesc">Country Name List By Population</a>)
+        </p>
+        <hr style="margin: 20px 0;">
+        <p style="font-size: small; color: #888;">
+            (Check City Name List By Population: 
+            <a href="/cityListByPopulationDesc">City Name List By Population</a>)
+        </p>
+        <hr style="margin: 20px 0;">
+        <p style="font-size: small; color: #888;">
+            (Check Capitol City Name List By Population: 
+            <a href="/capitolCityListByPopulationDesc">Capitol City Name List By Population</a>)
+        </p>
+        <hr style="margin: 20px 0;">
+        <p style="font-size: small; color: #888;">
+            (Check Top N City Name List By Population: 
+        </p>
+        <form action="/topNCityList" method="GET">
+            <label for="nameInput">Enter the number:</label>
+            <input 
+                type="number" 
+                id="nameInput" 
+                name="topN" 
+                placeholder="Type your name here" 
+                required
+            >
+            <button type="submit">Go</button>
+        </form>
+    </div>
+</body>
+</html>
