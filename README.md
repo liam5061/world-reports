@@ -4,7 +4,7 @@
 
 | ID | Name of the Requirement | Met | Screenshot |
 |----|--------------------------|-----|------------|
-| 1 | All the countries in the world organised by largest population to smallest. | Yes | ![Screenshot](evidence/countiresByPopulation.jpg) |
+| 1 | All the countries in the world organised by largest population to smallest. | Yes | ![Screenshot](evidence/countriesByPopulation.jpg) |
 | 2 | All the cities in the world organised by largest population to smallest. | Yes | ![Screenshot](evidence/citiesByPopulation.jpg) |
 | 3 | All the capital cities in the world organised by largest population to smallest. | Yes | ![Screenshot](evidence/capitolCities.jpg) |
 | 4 | The top N populated cities in the world where N is provided by the user. | Yes | ![Screenshot](evidence/topNCities.jpg) |
