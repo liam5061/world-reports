@@ -1,9 +1,5 @@
 # Use Cases
 
-This document contains the system's main use cases derived from the user stories. All actor references have been normalised to **User**.
-
----
-
 ## Use Case Diagram
 
 ![Screenshot](use_case_diagram.png)
