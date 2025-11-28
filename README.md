@@ -4,6 +4,8 @@
 
 # Evidence of Requirements Being Met
 
+4 requirements of 8 have been implemented = 50%
+
 | ID | Name of the Requirement | Met | Screenshot |
 |----|--------------------------|-----|------------|
 | 1 | All the countries in the world organised by largest population to smallest. | Yes | ![Screenshot](evidence/countriesByPopulation.jpg) |
